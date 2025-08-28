@@ -1,11 +1,8 @@
-%ctor {
-	%init(JailbreakDetector = objc_getClass("DynatraceCoreStatic.JailbreakDetector"));
-}
-
-%hook JailbreakDetector
+%hook Jailbreakdetector
 
 - (BOOL)isDeviceJailbroken {
-	return NO;
+    NSLog(@"[Bypass] Hooked isDeviceJailbroken");
+    return NO;
 }
 
 %end
