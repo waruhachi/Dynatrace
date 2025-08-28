@@ -1,0 +1,9 @@
+Package: moe.waru.dynatrace
+Name: Dynatrace
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Bypass Dynatrace jailbreak detection
+Maintainer: waruhachi
+Author: waruhachi
+Section: Tweaks
+Depends: mobilesubstrate
